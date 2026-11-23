@@ -1,4 +1,4 @@
-name: .github/workflows/djalka-shop-apk.yml
+name: Djalka-Shop APK
 on:
   workflow_dispatch:
   push:
