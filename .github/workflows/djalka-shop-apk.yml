@@ -40,10 +40,10 @@ jobs:
               targetSdk 34
               versionCode 1
               versionName '1.0'
-            }
-            buildFeatures { buildConfig true }
             buildConfigField 'String', 'START_URL', '"https://fasadmaser.github.io/Djalka-Shop/"'
           }
+            buildFeatures { buildConfig true }
+            }
           GRADLE
           mkdir -p app/src/main/res/drawable
           cat > app/src/main/res/drawable/icon.xml <<'XML'
